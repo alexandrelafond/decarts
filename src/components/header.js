@@ -17,7 +17,9 @@ const Header = ({ siteTitle }) => {
               <Link
                 to="/about/"
                 className={`inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium text-gray-900 ${
-                  window.location.pathname === "/about/" && "border-indigo-500"
+                  typeof window !== undefined &&
+                  window.location.pathname === "/about/" &&
+                  "border-indigo-500"
                 }`}
               >
                 À propos
