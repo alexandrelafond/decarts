@@ -3,6 +3,8 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle }) => {
+  const aboutIsActive =
+    typeof window !== "undefined" && window.location.pathname === "/about/"
   return (
     <nav className="bg-white border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -17,9 +19,7 @@ const Header = ({ siteTitle }) => {
               <Link
                 to="/about/"
                 className={`inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium text-gray-900 ${
-                  typeof window !== undefined &&
-                  window.location.pathname === "/about/" &&
-                  "border-indigo-500"
+                  aboutIsActive && "border-indigo-500"
                 }`}
               >
                 À propos
