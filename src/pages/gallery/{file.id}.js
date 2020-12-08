@@ -32,30 +32,32 @@ const GalleryId = props => {
         </svg>
         <span className="ml-2">Retour</span>
       </Link>
-      <div className="mt-12">
-        <div className="flex flex-col items-center">
-          <h2>{`Artiste: ${fileInfo.artist.name} (${fileInfo.artist.origin})`}</h2>
-          <h4>{`Titre: ${fileInfo.painting.title} (${fileInfo.painting.year})`}</h4>
+      {fileInfo && (
+        <div className="mt-12">
+          <div className="flex flex-col items-center">
+            <h2>{`Artiste: ${fileInfo.artist.name} (${fileInfo.artist.origin})`}</h2>
+            <h4>{`Titre: ${fileInfo.painting.title} (${fileInfo.painting.year})`}</h4>
+          </div>
+          <Img fluid={file.childImageSharp.fluid} />
+          <div className="flex flex-col items-center">
+            <div className="bg-white p-5 rounded-lg my-5">
+              <h3>Informations additionelles</h3>
+              <h4>Medium</h4>
+              <div>{fileInfo.medium}</div>
+              <h4 className="mt-4">Dimensions</h4>
+              <div>{`Sans encadrement: ${fileInfo.sizes.withoutFrame.width}" x ${fileInfo.sizes.withoutFrame.height}"`}</div>
+              <div>{`Avec encadrement: ${fileInfo.sizes.withFrame.width}" x ${fileInfo.sizes.withFrame.height}"`}</div>
+            </div>
+            <div className="flex items-center">
+              Valeur : <div className="font-bold">{fileInfo.price.worth}$</div>
+            </div>
+            <div className="flex items-center">
+              Prix demandé :
+              <div className="font-bold">{fileInfo.price.asked}$</div>
+            </div>
+          </div>
         </div>
-        <Img fluid={file.childImageSharp.fluid} />
-        <div className="flex flex-col items-center">
-          <div className="bg-white p-5 rounded-lg my-5">
-            <h3>Informations additionelles</h3>
-            <h4>Medium</h4>
-            <div>{fileInfo.medium}</div>
-            <h4 className="mt-4">Dimensions</h4>
-            <div>{`Sans encadrement: ${fileInfo.sizes.withoutFrame.width}" x ${fileInfo.sizes.withoutFrame.height}"`}</div>
-            <div>{`Avec encadrement: ${fileInfo.sizes.withFrame.width}" x ${fileInfo.sizes.withFrame.height}"`}</div>
-          </div>
-          <div className="flex items-center">
-            Valeur : <div className="font-bold">{fileInfo.price.worth}$</div>
-          </div>
-          <div className="flex items-center">
-            Prix demandé :
-            <div className="font-bold">{fileInfo.price.asked}$</div>
-          </div>
-        </div>
-      </div>
+      )}
     </Layout>
   )
 }
