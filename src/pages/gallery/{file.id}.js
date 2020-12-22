@@ -11,7 +11,6 @@ const GalleryId = props => {
     return item.fileName === file.name
   })
 
-  const { title, year, sizes, medium } = fileInfo.info;
   return (
     <Layout>
       <SEO title="gallery id" />
@@ -40,17 +39,17 @@ const GalleryId = props => {
         <div className="mt-12">
           <div className="flex flex-col items-center">
             <h2>{`Artiste: ${fileInfo.artist.name} (${fileInfo.artist.origin})`}</h2>
-            <h4>{`Titre: ${title} (${year})`}</h4>
+            <h4>{`Titre: ${fileInfo.info.title} (${fileInfo.info.year})`}</h4>
           </div>
           <Img fluid={file.childImageSharp.fluid} />
           <div className="flex flex-col items-center">
             <div className="bg-white p-5 rounded-lg my-5">
               <h3>Informations additionelles</h3>
               <h4>Medium</h4>
-              <div>{medium}</div>
+              <div>{fileInfo.info.medium}</div>
               <h4 className="mt-4">Dimensions</h4>
-              <div>{`Sans encadrement: ${sizes.withoutFrame.width}" x ${sizes.withoutFrame.height}"`}</div>
-              <div>{`Avec encadrement: ${sizes.withFrame.width}" x ${sizes.withFrame.height}"`}</div>
+              <div>{`Sans encadrement: ${fileInfo.info.sizes.withoutFrame.width}" x ${fileInfo.info.sizes.withoutFrame.height}"`}</div>
+              <div>{`Avec encadrement: ${fileInfo.info.sizes.withFrame.width}" x ${fileInfo.info.sizes.withFrame.height}"`}</div>
             </div>
             <div className="flex items-center">
               Valeur : <div className="font-bold">{fileInfo.price.worth}$</div>
