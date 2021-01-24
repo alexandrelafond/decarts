@@ -10,7 +10,7 @@ const GalleryId = props => {
   const fileInfo = files.find(item => {
     return item.fileName === file.name
   })
-
+  console.log(fileInfo)
   return (
     <Layout>
       <SEO title="gallery id" />
@@ -50,8 +50,14 @@ const GalleryId = props => {
               <h4>Medium</h4>
               <div>{fileInfo.info.medium}</div>
               <h4 className="mt-4">Dimensions</h4>
-              <div>{`Sans encadrement: ${fileInfo.info.sizes.withoutFrame.width}" x ${fileInfo.info.sizes.withoutFrame.height}"`}</div>
-              <div>{`Avec encadrement: ${fileInfo.info.sizes.withFrame.width}" x ${fileInfo.info.sizes.withFrame.height}"`}</div>
+              {fileInfo.info.frame ? (
+                <>
+                  <div>{`Sans encadrement: ${fileInfo.info.sizes.withoutFrame.width}" x ${fileInfo.info.sizes.withoutFrame.height}"`}</div>
+                  <div>{`Avec encadrement: ${fileInfo.info.sizes.withFrame.width}" x ${fileInfo.info.sizes.withFrame.height}"`}</div>
+                </>
+              ) : (
+                <div>{`${fileInfo.info.sizes.width}" x ${fileInfo.info.sizes.height}"`}</div>
+              )}
             </div>
             <div className="flex items-center">
               Valeur : <div className="font-bold">{fileInfo.price.worth}$</div>
