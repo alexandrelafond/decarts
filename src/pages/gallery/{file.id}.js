@@ -41,7 +41,9 @@ const GalleryId = props => {
             <h2>{`Artiste: ${fileInfo.artist.name} (${fileInfo.artist.origin})`}</h2>
             <h4>{`Titre: ${fileInfo.info.title} (${fileInfo.info.year})`}</h4>
           </div>
-          <Img fluid={file.childImageSharp.fluid} />
+          <div className="text-center">
+            <Img fixed={file.childImageSharp.fixed} />
+          </div>
           <div className="flex flex-col items-center">
             <div className="bg-white p-5 rounded-lg my-5">
               <h3>Informations additionelles</h3>
@@ -72,8 +74,8 @@ export const query = graphql`
     file(id: { eq: $id }) {
       name
       childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid
+        fixed(width: 500) {
+          ...GatsbyImageSharpFixed
         }
       }
     }

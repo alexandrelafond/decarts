@@ -13,7 +13,7 @@ const Gallery = props => {
           id
           name
           childImageSharp {
-            fixed(width: 300, height: 300) {
+            fixed(width: 250, height: 250) {
               ...GatsbyImageSharpFixed
             }
           }

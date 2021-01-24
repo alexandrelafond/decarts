@@ -4,7 +4,7 @@ import Img from "gatsby-image"
 
 const Item = ({ file, fileInfo }) => {
   return (
-    <li key={file.id}>
+    <li key={file.id} className="text-center">
       <Link to={`gallery/${file.id}`}>
         {fileInfo && (
           <>
