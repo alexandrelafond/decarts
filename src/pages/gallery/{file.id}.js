@@ -38,8 +38,8 @@ const GalleryId = props => {
       {fileInfo && (
         <div className="mt-12">
           <div className="flex flex-col items-center">
-            <h2>{`Artiste: ${fileInfo.artist.name} (${fileInfo.artist.origin})`}</h2>
-            <h4>{`Titre: ${fileInfo.info.title} (${fileInfo.info.year})`}</h4>
+            <h2>{`${fileInfo.artist.name}, ${fileInfo.artist.origin} (${fileInfo.artist.birthYear} à ${fileInfo.artist.deathYear})`}</h2>
+            <h4>{`${fileInfo.info.title} (${fileInfo.info.year})`}</h4>
           </div>
           <div className="text-center">
             <Img fixed={file.childImageSharp.fixed} />
