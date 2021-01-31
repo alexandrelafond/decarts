@@ -7,7 +7,6 @@ const About = props => {
   return (
     <Layout>
       <SEO title="about" />
-      <div>Page a propos</div>
     </Layout>
   )
 }

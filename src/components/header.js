@@ -28,7 +28,7 @@ const Header = ({ siteTitle }) => {
           </div>
           <div className="ml-6 flex items-center">
             <a
-              className="inline-flex items-center p-2 border border-green-400 text-sm font-bold text-green-400 rounded-md hover:bg-green-400 hover:text-white"
+              className="inline-flex items-center px-12 py-1 border border-gray-700 text-sm font-bold text-gray-700 rounded-md hover:bg-gray-700 hover:text-white"
               href={"mailto:" + "jacquesdespres@sympatico.ca"}
             >
               Nous écrire

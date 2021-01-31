@@ -9,7 +9,7 @@ import Gallery from "../components/gallery"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div className="mx-5 md:mx-auto lg:w-2/3 bg-white rounded-xl py-8 px-12">
+    <div className="mx-5 md:mx-auto lg:w-2/3 bg-white rounded-xl py-8 px-12 text-justify">
       <h4 className="text-center">
         Nous aimerions vous faire découvrir les résultats d'une passion!
       </h4>
@@ -35,7 +35,7 @@ const IndexPage = () => (
         vibrer! Donc, n'hésitez surtout pas à{" "}
         <a
           href={"mailto:" + "jacquesdespres@sympatico.ca"}
-          className="font-bold text-green-400"
+          className="font-bold text-blue-400"
         >
           communiquer
         </a>{" "}
