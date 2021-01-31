@@ -76,7 +76,7 @@ const files = [
     },
     price: {
       worth: "6 000",
-      asked: "4 500",
+      asked: "3 750",
     },
     sold: false,
   },
@@ -107,7 +107,7 @@ const files = [
     },
     price: {
       worth: "7 200",
-      asked: "4 900",
+      asked: "3 600",
     },
     sold: false,
   },
@@ -137,8 +137,8 @@ const files = [
       },
     },
     price: {
-      worth: "6 900",
-      asked: "5 500",
+      worth: "9 500",
+      asked: "6 500",
     },
     sold: false,
   },
@@ -169,7 +169,7 @@ const files = [
     },
     price: {
       worth: "4 800",
-      asked: "3 900",
+      asked: "3 600",
     },
     sold: false,
   },
@@ -199,15 +199,15 @@ const files = [
       },
     },
     price: {
-      worth: "3 800",
-      asked: "3 000",
+      worth: "4 685",
+      asked: "3 500",
     },
     sold: false,
   },
   {
     fileName: "N° 6",
     artist: {
-      name: "H. Poirier",
+      name: "Marcel H. Poirier",
       origin: "Québec",
       birthYear: 1946,
       deathYear: "-",
@@ -230,8 +230,8 @@ const files = [
       },
     },
     price: {
-      worth: "5 000",
-      asked: "3 500",
+      worth: "4 200",
+      asked: "2 500",
     },
     sold: false,
   },
@@ -261,8 +261,8 @@ const files = [
       },
     },
     price: {
-      worth: "25 000",
-      asked: "19 500",
+      worth: "27 000",
+      asked: "17 500",
     },
     sold: false,
   },
@@ -292,8 +292,8 @@ const files = [
       },
     },
     price: {
-      worth: "12 000",
-      asked: "9 500",
+      worth: "16 000",
+      asked: "8 000",
     },
     sold: false,
   },
@@ -323,8 +323,8 @@ const files = [
       },
     },
     price: {
-      worth: "8 000",
-      asked: "6 400",
+      worth: "12 000",
+      asked: "8 000",
     },
     sold: false,
   },
@@ -339,7 +339,7 @@ const files = [
     info: {
       type: TYPE.PAINTING,
       title: "Fin d'été",
-      year: 20044,
+      year: 2004,
       medium: MEDIUMS.OIL,
       frame: true,
       sizes: {
@@ -386,7 +386,7 @@ const files = [
     },
     price: {
       worth: "5 000",
-      asked: "3 900",
+      asked: "3 500",
     },
     sold: false,
   },
@@ -416,8 +416,8 @@ const files = [
       },
     },
     price: {
-      worth: "4 000",
-      asked: "3 200",
+      worth: "3 600",
+      asked: "2 400",
     },
     sold: false,
   },
@@ -438,7 +438,7 @@ const files = [
       sizes: {
         withoutFrame: {
         width: 24,
-        height: 28,
+        height: 18,
         },
         withFrame: {
         width: 30,
@@ -479,7 +479,7 @@ const files = [
     },
     price: {
       worth: "900",
-      asked: "720",
+      asked: "600",
     },
     sold: false,
   },
@@ -509,8 +509,8 @@ const files = [
       },
     },
     price: {
-      worth: "12 000",
-      asked: "9 500",
+      worth: "31 500",
+      asked: "15 000",
     },
     sold: false,
   },
@@ -540,8 +540,8 @@ const files = [
       },
     },
     price: {
-      worth: "1 500",
-      asked: "1 200",
+      worth: "1 600",
+      asked: "1 000",
     },
     sold: false,
   },
@@ -609,7 +609,7 @@ const files = [
   },
   {
 
-    fileName: "No° 19",
+    fileName: "N° 19",
     artist: {
       name: "Normand Hudon",
       origin: "Québec",
@@ -634,7 +634,7 @@ const files = [
       },
     },
     price: {
-      worth: "10 000",
+      worth: "11 500",
       asked: "8 000",
     },
     sold: false,
@@ -676,7 +676,7 @@ const files = [
       name: "Marcel Favreau",
       origin: "Québec",
       birthYear: 1921,
-      deathYear: "-",
+      deathYear: "2020",
     },
     info: {
       type: TYPE.PAINTING,
@@ -697,7 +697,7 @@ const files = [
     },
     price: {
       worth: "6 000",
-      asked: "4 800",
+      asked: "3 900",
     },
     sold: false,
   },
@@ -758,8 +758,8 @@ const files = [
       },
     },
     price: {
-      worth: "4 800",
-      asked: "3 900",
+      worth: "3 600",
+      asked: "2 400",
     },
     sold: false,
   },
@@ -851,8 +851,8 @@ const files = [
       },
     },
     price: {
-      worth: "3 900",
-      asked: "3 000",
+      worth: "3 400",
+      asked: "2 500",
     },
     sold: false,
   },
@@ -897,7 +897,7 @@ const files = [
     },
     info: {
       type: TYPE.PAINTING,
-      title: "Fortin et son copain",
+      title: "Madame Fortin et son copain",
       year: 1990,
       medium: MEDIUMS.OIL,
       frame: true,
@@ -1023,7 +1023,7 @@ const files = [
       type: TYPE.PAINTING,
       title: "Il est trop tard, le jardin est rempli",
       year: 1995,
-      medium: MEDIUMS.OIL,
+      medium: MEDIUMS.ACRYLIC,
       frame: true,
       sizes: {
         withoutFrame: {
@@ -1085,7 +1085,7 @@ const files = [
       type: TYPE.PAINTING,
       title: "Au bout de la rue",
       year: "Inconnue",
-      medium: MEDIUMS.OIL,
+      medium: MEDIUMS.ACRYLIC,
       frame: true,
       sizes: {
         withoutFrame: {
@@ -1176,7 +1176,7 @@ const files = [
     },
     info: {
       type: TYPE.PAINTING,
-      title: "Le quêteuc du village vient de passer",
+      title: "Le quêteux du village vient de passer",
       year: 2002,
       medium: MEDIUMS.OIL,
       frame: true,
@@ -1541,7 +1541,7 @@ const files = [
   {
     fileName: "N° 49",
     artist: {
-      name: "Paula Lacob",
+      name: "Paula Iacob",
       origin: "Bucarest",
       birthYear: 1932,
       deathYear: "2015",
@@ -1634,7 +1634,7 @@ const files = [
   {
     fileName: "N° 52",
     artist: {
-      name: "Zeljiko Seles",
+      name: "Zeljko Seles",
       origin: "Podravina",
       birthYear: 1954,
       deathYear: "-",
@@ -1760,7 +1760,7 @@ const files = [
     artist: {
       name: "Andrée McNab",
       origin: "Québec",
-      birthYear: 1995,
+      birthYear: "-",
       deathYear: "-",
     },
     info: {
@@ -1829,7 +1829,7 @@ const files = [
       type: TYPE.PAINTING,
       title: "Au petit trot!",
       year: 1947,
-      medium: MEDIUMS.OIL,
+      medium: MEDIUMS.ACRYLIC,
       frame: true,
       sizes: {
         withoutFrame: {
@@ -2263,7 +2263,7 @@ const files = [
     info: {
       type: TYPE.SCULPTURE,
       title: "Rhino",
-      year: "Inconnue",
+      year: "2005",
       medium: MEDIUMS.VERDITE,
       sizes: {
         width: 5,
@@ -2392,7 +2392,7 @@ const files = [
       medium: MEDIUMS.JASPER,
       sizes: {
         width: 7,
-        length: 4,
+        length: 3.9,
         height: 9.5,
       },
     },
