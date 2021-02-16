@@ -24,15 +24,15 @@ const IndexPage = () => (
       </p>
       <p>
         Le temps est venu pour nous de réduire la grandeur de notre résidence;
-        ce n'est pas gaieté de coeur que nous nous séparons de ces oeuvres, mais
-        l'âge et l'espace oblige. Nous avons donc décidé de mettre notre
+        ce n'est pas de gaieté de coeur que nous nous séparons de ces oeuvres,
+        mais l'âge et l'espace oblige. Nous avons donc décidé de mettre notre
         collection en vente et nous vous invitons à y jeter un coup d'oeil.
       </p>
       <p>
         Nous espérons que vous aurez autant de plaisir et d'émotion à découvrir
-        ces oeuvres que nous avons eu à les acquérir. Surtout, n'achetez pas un
-        tableau ou une sculpture pour son prix, achetez parceque cela vous fait
-        vibrer! Donc, n'hésitez surtout pas à{" "}
+        ces oeuvres que nous en avons eu à les acquérir. Surtout, n'achetez pas
+        un tableau ou une sculpture pour son prix, achetez parce que cela vous
+        fait vibrer! Donc, n'hésitez surtout pas à{" "}
         <a
           href={"mailto:" + "jacquesdespres@sympatico.ca"}
           className="font-bold text-blue-400"
@@ -45,6 +45,10 @@ const IndexPage = () => (
       <span className="font-bold italic">Francine et Jacques Després</span>
     </div>
     <h2 className="text-center my-10">La collection</h2>
+    <h4 className="italic text-sm text-center">
+      Tous les encadrements sont d'origines. Cliquez sur un tableau pour voir
+      ses caractéristiques.
+    </h4>
     <Gallery />
   </Layout>
 )

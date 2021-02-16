@@ -1,7 +1,7 @@
 const TYPE = {
   SCULPTURE: "Sculpture",
   PAINTING: "Toile",
-} 
+}
 
 const MEDIUMS = {
   OIL: "Huile",
@@ -65,12 +65,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 30,
-        height: 40,
+          width: 30,
+          height: 40,
         },
         withFrame: {
-        width: 40,
-        height: 50,
+          width: 40,
+          height: 50,
         },
       },
     },
@@ -96,12 +96,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 48,
-        height: 48,
+          width: 48,
+          height: 48,
         },
         withFrame: {
-        width: 50,
-        height: 50,
+          width: 50,
+          height: 50,
         },
       },
     },
@@ -127,12 +127,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 36,
-        height: 42,
+          width: 36,
+          height: 42,
         },
         withFrame: {
-        width: 45,
-        height: 51,
+          width: 45,
+          height: 51,
         },
       },
     },
@@ -158,12 +158,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 24,
-        height: 36,
+          width: 24,
+          height: 36,
         },
         withFrame: {
-        width: 34,
-        height: 46,
+          width: 34,
+          height: 46,
         },
       },
     },
@@ -189,12 +189,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 24,
-        height: 36,
+          width: 24,
+          height: 36,
         },
         withFrame: {
-        width: 33,
-        height: 45,
+          width: 33,
+          height: 45,
         },
       },
     },
@@ -220,12 +220,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 30,
-        height: 40,
+          width: 30,
+          height: 40,
         },
         withFrame: {
-        width: 40,
-        height: 50,
+          width: 40,
+          height: 50,
         },
       },
     },
@@ -251,12 +251,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 24,
-        height: 30,
+          width: 24,
+          height: 30,
         },
         withFrame: {
-        width: 30,
-        height: 36,
+          width: 30,
+          height: 36,
         },
       },
     },
@@ -269,7 +269,7 @@ const files = [
   {
     fileName: "N° 8",
     artist: {
-      name: "Francesco Lacurto",
+      name: "Francesco Iacurto",
       origin: "Québec",
       birthYear: 1908,
       deathYear: 2001,
@@ -282,12 +282,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 30,
-        height: 24,
+          width: 30,
+          height: 24,
         },
         withFrame: {
-        width: 38,
-        height: 32,
+          width: 38,
+          height: 32,
         },
       },
     },
@@ -313,12 +313,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 40,
-        height: 30,
+          width: 40,
+          height: 30,
         },
         withFrame: {
-        width: 57,
-        height: 38,
+          width: 57,
+          height: 38,
         },
       },
     },
@@ -344,12 +344,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 36,
-        height: 30,
+          width: 36,
+          height: 30,
         },
         withFrame: {
-        width: 44,
-        height: 38,
+          width: 44,
+          height: 38,
         },
       },
     },
@@ -375,12 +375,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 24,
-        height: 20,
+          width: 24,
+          height: 20,
         },
         withFrame: {
-        width: 34,
-        height: 30,
+          width: 34,
+          height: 30,
         },
       },
     },
@@ -396,7 +396,7 @@ const files = [
       name: "Vladimir Horik",
       origin: "Québec",
       birthYear: 1939,
-      deathYear:"-",
+      deathYear: "-",
     },
     info: {
       type: TYPE.PAINTING,
@@ -406,12 +406,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 30,
-        height: 15,
+          width: 30,
+          height: 15,
         },
         withFrame: {
-        width: 38,
-        height: 24,
+          width: 38,
+          height: 24,
         },
       },
     },
@@ -437,12 +437,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 24,
-        height: 18,
+          width: 24,
+          height: 18,
         },
         withFrame: {
-        width: 30,
-        height: 24,
+          width: 30,
+          height: 24,
         },
       },
     },
@@ -457,8 +457,8 @@ const files = [
     artist: {
       name: "Chantal Angers",
       origin: "Québec",
-      birthYear: "Inconnue",
-      deathYear: "-",
+      birthYear: null,
+      deathYear: null,
     },
     info: {
       type: TYPE.PAINTING,
@@ -468,12 +468,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 40,
-        height: 8,
+          width: 40,
+          height: 8,
         },
         withFrame: {
-        width: 42,
-        height: 10,
+          width: 42,
+          height: 10,
         },
       },
     },
@@ -489,7 +489,7 @@ const files = [
       name: "Umberto Bruni",
       origin: "Québec",
       birthYear: 1914,
-      deathYear: "-",
+      deathYear: 2021,
     },
     info: {
       type: TYPE.PAINTING,
@@ -499,12 +499,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 24,
-        height: 20,
+          width: 24,
+          height: 20,
         },
         withFrame: {
-        width: 32,
-        height: 28,
+          width: 32,
+          height: 28,
         },
       },
     },
@@ -530,12 +530,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 20,
-        height: 24,
+          width: 20,
+          height: 24,
         },
         withFrame: {
-        width: 26,
-        height: 34,
+          width: 26,
+          height: 34,
         },
       },
     },
@@ -561,12 +561,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 30,
-        height: 24,
+          width: 30,
+          height: 24,
         },
         withFrame: {
-        width: 36,
-        height: 30,
+          width: 36,
+          height: 30,
         },
       },
     },
@@ -587,17 +587,17 @@ const files = [
     info: {
       type: TYPE.PAINTING,
       title: "Bouquet de Lilas",
-      year: "Inconnue",
+      year: null,
       medium: MEDIUMS.OIL,
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 20,
-        height: 16,
+          width: 20,
+          height: 16,
         },
         withFrame: {
-        width: 28,
-        height: 24,
+          width: 28,
+          height: 24,
         },
       },
     },
@@ -608,7 +608,6 @@ const files = [
     sold: false,
   },
   {
-
     fileName: "N° 19",
     artist: {
       name: "Normand Hudon",
@@ -624,12 +623,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 24,
-        height: 12,
+          width: 24,
+          height: 12,
         },
         withFrame: {
-        width: 33,
-        height: 20.5,
+          width: 33,
+          height: 20.5,
         },
       },
     },
@@ -644,8 +643,8 @@ const files = [
     artist: {
       name: "Jeannine Bourret",
       origin: "Québec",
-      birthYear: "Inconnue",
-      deathYear: "-",
+      birthYear: null,
+      deathYear: null,
     },
     info: {
       type: TYPE.PAINTING,
@@ -655,12 +654,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 18,
-        height: 14,
+          width: 18,
+          height: 14,
         },
         withFrame: {
-        width: 24,
-        height: 20,
+          width: 24,
+          height: 20,
         },
       },
     },
@@ -681,17 +680,17 @@ const files = [
     info: {
       type: TYPE.PAINTING,
       title: "Le moulin Ouellette St-Jean-Port-Joli",
-      year: 19744,
+      year: 1974,
       medium: MEDIUMS.OIL,
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 28,
-        height: 24,
+          width: 28,
+          height: 24,
         },
         withFrame: {
-        width: 24,
-        height: 30,
+          width: 24,
+          height: 30,
         },
       },
     },
@@ -712,17 +711,17 @@ const files = [
     info: {
       type: TYPE.PAINTING,
       title: "Village St-Charles",
-      year: "Inconnue",
+      year: null,
       medium: MEDIUMS.ACRYLIC,
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 20,
-        height: 24,
+          width: 20,
+          height: 24,
         },
         withFrame: {
-        width: 26,
-        height: 30,
+          width: 26,
+          height: 30,
         },
       },
     },
@@ -735,7 +734,7 @@ const files = [
   {
     fileName: "N° 23",
     artist: {
-      name: "Yves du John Der",
+      name: "John Der",
       origin: "Saskatchewan",
       birthYear: "1926",
       deathYear: "1996",
@@ -748,12 +747,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 20,
-        height: 24,
+          width: 20,
+          height: 24,
         },
         withFrame: {
-        width: 26,
-        height: 30,
+          width: 26,
+          height: 30,
         },
       },
     },
@@ -779,12 +778,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 28,
-        height: 24,
+          width: 28,
+          height: 24,
         },
         withFrame: {
-        width: 24,
-        height: 30,
+          width: 24,
+          height: 30,
         },
       },
     },
@@ -810,12 +809,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 12,
-        height: 16,
+          width: 12,
+          height: 16,
         },
         withFrame: {
-        width: 22,
-        height: 26,
+          width: 22,
+          height: 26,
         },
       },
     },
@@ -841,12 +840,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 18,
-        height: 24,
+          width: 18,
+          height: 24,
         },
         withFrame: {
-        width: 24,
-        height: 30,
+          width: 24,
+          height: 30,
         },
       },
     },
@@ -867,17 +866,17 @@ const files = [
     info: {
       type: TYPE.PAINTING,
       title: "Les Tourterelles",
-      year: "Inconnue",
+      year: null,
       medium: MEDIUMS.OIL,
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 16,
-        height: 24,
+          width: 16,
+          height: 24,
         },
         withFrame: {
-        width: 22,
-        height: 30,
+          width: 22,
+          height: 30,
         },
       },
     },
@@ -903,12 +902,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 36,
-        height: 40,
+          width: 36,
+          height: 40,
         },
         withFrame: {
-        width: 38,
-        height: 42,
+          width: 38,
+          height: 42,
         },
       },
     },
@@ -934,12 +933,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 16,
-        height: 20,
+          width: 16,
+          height: 20,
         },
         withFrame: {
-        width: 24,
-        height: 28,
+          width: 24,
+          height: 28,
         },
       },
     },
@@ -950,35 +949,35 @@ const files = [
     sold: false,
   },
   {
-  fileName: "N° 30",
-  artist: {
-    name: "Guy Legaré",
-    origin: "Québec",
-    birthYear: 1941,
-    deathYear: "-",
-  },
-  info: {
-    type: TYPE.PAINTING,
-    title: "La grève",
-    year: 1991,
-    medium: MEDIUMS.OIL,
-    frame: true,
-    sizes: {
-      withoutFrame: {
-      width: 12,
-      height: 20,
-      },
-      withFrame: {
-      width: 18,
-      height: 26,
+    fileName: "N° 30",
+    artist: {
+      name: "Guy Legaré",
+      origin: "Québec",
+      birthYear: 1941,
+      deathYear: "-",
+    },
+    info: {
+      type: TYPE.PAINTING,
+      title: "La grève",
+      year: 1991,
+      medium: MEDIUMS.OIL,
+      frame: true,
+      sizes: {
+        withoutFrame: {
+          width: 12,
+          height: 20,
+        },
+        withFrame: {
+          width: 18,
+          height: 26,
+        },
       },
     },
-  },
-  price: {
-    worth: "800",
-    asked: "600",
-  },
-  sold: false,
+    price: {
+      worth: "800",
+      asked: "600",
+    },
+    sold: false,
   },
   {
     fileName: "N° 31",
@@ -991,17 +990,17 @@ const files = [
     info: {
       type: TYPE.PAINTING,
       title: "La pêche",
-      year: "Inconnue",
+      year: null,
       medium: MEDIUMS.OIL,
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 11.75,
-        height: 13.5,
+          width: 11.75,
+          height: 13.5,
         },
         withFrame: {
-        width: 20,
-        height: 22,
+          width: 20,
+          height: 22,
         },
       },
     },
@@ -1027,12 +1026,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 13,
-        height: 9,
+          width: 13,
+          height: 9,
         },
         withFrame: {
-        width: 19,
-        height: 15,
+          width: 19,
+          height: 15,
         },
       },
     },
@@ -1058,12 +1057,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 10,
-        height: 8,
+          width: 10,
+          height: 8,
         },
         withFrame: {
-        width: 17,
-        height: 15,
+          width: 17,
+          height: 15,
         },
       },
     },
@@ -1084,17 +1083,17 @@ const files = [
     info: {
       type: TYPE.PAINTING,
       title: "Au bout de la rue",
-      year: "Inconnue",
+      year: null,
       medium: MEDIUMS.ACRYLIC,
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 12,
-        height: 16,
+          width: 12,
+          height: 16,
         },
         withFrame: {
-        width: 21,
-        height: 25,
+          width: 21,
+          height: 25,
         },
       },
     },
@@ -1115,17 +1114,17 @@ const files = [
     info: {
       type: TYPE.PAINTING,
       title: "Sagesse",
-      year: "Inconnue",
+      year: null,
       medium: MEDIUMS.OIL,
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 10,
-        height: 8,
+          width: 10,
+          height: 8,
         },
         withFrame: {
-        width: 20,
-        height: 18,
+          width: 20,
+          height: 18,
         },
       },
     },
@@ -1146,17 +1145,17 @@ const files = [
     info: {
       type: TYPE.PAINTING,
       title: "Adrien",
-      year: "Inconnue",
+      year: null,
       medium: MEDIUMS.OIL,
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 10,
-        height: 8,
+          width: 10,
+          height: 8,
         },
         withFrame: {
-        width: 20,
-        height: 18,
+          width: 20,
+          height: 18,
         },
       },
     },
@@ -1182,12 +1181,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 12,
-        height: 10,
+          width: 12,
+          height: 10,
         },
         withFrame: {
-        width: 16,
-        height: 14,
+          width: 16,
+          height: 14,
         },
       },
     },
@@ -1213,12 +1212,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 8,
-        height: 10,
+          width: 8,
+          height: 10,
         },
         withFrame: {
-        width: 15,
-        height: 17,
+          width: 15,
+          height: 17,
         },
       },
     },
@@ -1244,12 +1243,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 14,
-        height: 11,
+          width: 14,
+          height: 11,
         },
         withFrame: {
-        width: 20,
-        height: 17,
+          width: 20,
+          height: 17,
         },
       },
     },
@@ -1275,12 +1274,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 11,
-        height: 7.5,
+          width: 11,
+          height: 7.5,
         },
         withFrame: {
-        width: 18,
-        height: 15,
+          width: 18,
+          height: 15,
         },
       },
     },
@@ -1306,12 +1305,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 7,
-        height: 5,
+          width: 7,
+          height: 5,
         },
         withFrame: {
-        width: 13,
-        height: 11,
+          width: 13,
+          height: 11,
         },
       },
     },
@@ -1332,17 +1331,17 @@ const files = [
     info: {
       type: TYPE.PAINTING,
       title: "Une chaîne de toits",
-      year: "Inconnue",
+      year: null,
       medium: MEDIUMS.ACRYLIC,
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 10,
-        height: 2.5,
+          width: 10,
+          height: 2.5,
         },
         withFrame: {
-        width: 15,
-        height: 7.5,
+          width: 15,
+          height: 7.5,
         },
       },
     },
@@ -1363,17 +1362,17 @@ const files = [
     info: {
       type: TYPE.PAINTING,
       title: "Je ne suis rien d'un épouvantail",
-      year: "Inconnue",
+      year: null,
       medium: MEDIUMS.ACRYLIC,
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 8,
-        height: 2.5,
+          width: 8,
+          height: 2.5,
         },
         withFrame: {
-        width: 12.5,
-        height: 5.5,
+          width: 12.5,
+          height: 5.5,
         },
       },
     },
@@ -1394,17 +1393,17 @@ const files = [
     info: {
       type: TYPE.PAINTING,
       title: "La petite curieuse",
-      year: "Inconnue",
+      year: null,
       medium: MEDIUMS.ACRYLIC,
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 8,
-        height: 2.5,
+          width: 8,
+          height: 2.5,
         },
         withFrame: {
-        width: 13,
-        height: 7.5,
+          width: 13,
+          height: 7.5,
         },
       },
     },
@@ -1419,8 +1418,8 @@ const files = [
     artist: {
       name: "Margaret Buriko",
       origin: "Tashme, Colombie-Britanique",
-      birthYear: "Inconnue",
-      deathYear: "-",
+      birthYear: null,
+      deathYear: null,
     },
     info: {
       type: TYPE.PAINTING,
@@ -1430,12 +1429,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 8,
-        height: 10,
+          width: 8,
+          height: 10,
         },
         withFrame: {
-        width: 14,
-        height: 16,
+          width: 14,
+          height: 16,
         },
       },
     },
@@ -1461,12 +1460,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 8,
-        height: 10,
+          width: 8,
+          height: 10,
         },
         withFrame: {
-        width: 16,
-        height: 18,
+          width: 16,
+          height: 18,
         },
       },
     },
@@ -1486,18 +1485,18 @@ const files = [
     },
     info: {
       type: TYPE.PAINTING,
-      title: "Sans titre (Le pont)",
-      year: "Inconnue",
+      title: "Le pont, Paris",
+      year: null,
       medium: MEDIUMS.OIL,
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 13,
-        height: 10,
+          width: 13,
+          height: 10,
         },
         withFrame: {
-        width: 14,
-        height: 16,
+          width: 14,
+          height: 16,
         },
       },
     },
@@ -1523,12 +1522,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 12,
-        height: 16,
+          width: 12,
+          height: 16,
         },
         withFrame: {
-        width: 18,
-        height: 23,
+          width: 18,
+          height: 23,
         },
       },
     },
@@ -1554,12 +1553,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 12,
-        height: 14,
+          width: 12,
+          height: 14,
         },
         withFrame: {
-        width: 18,
-        height: 20,
+          width: 18,
+          height: 20,
         },
       },
     },
@@ -1585,12 +1584,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 36,
-        height: 24,
+          width: 36,
+          height: 24,
         },
         withFrame: {
-        width: 37,
-        height: 25,
+          width: 37,
+          height: 25,
         },
       },
     },
@@ -1616,12 +1615,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 22,
-        height: 30,
+          width: 22,
+          height: 30,
         },
         withFrame: {
-        width: 29,
-        height: 37,
+          width: 29,
+          height: 37,
         },
       },
     },
@@ -1647,12 +1646,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 16,
-        height: 24,
+          width: 16,
+          height: 24,
         },
         withFrame: {
-        width: 24,
-        height: 32,
+          width: 24,
+          height: 32,
         },
       },
     },
@@ -1678,12 +1677,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 29,
-        height: 22,
+          width: 29,
+          height: 22,
         },
         withFrame: {
-        width: 36,
-        height: 30,
+          width: 36,
+          height: 30,
         },
       },
     },
@@ -1709,12 +1708,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 24,
-        height: 18,
+          width: 24,
+          height: 18,
         },
         withFrame: {
-        width: 31,
-        height: 25,
+          width: 31,
+          height: 25,
         },
       },
     },
@@ -1740,12 +1739,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 15,
-        height: 19,
+          width: 15,
+          height: 19,
         },
         withFrame: {
-        width: 22,
-        height: 26,
+          width: 22,
+          height: 26,
         },
       },
     },
@@ -1771,12 +1770,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 11,
-        height: 14,
+          width: 11,
+          height: 14,
         },
         withFrame: {
-        width: 16,
-        height: 19,
+          width: 16,
+          height: 19,
         },
       },
     },
@@ -1797,17 +1796,17 @@ const files = [
     info: {
       type: TYPE.PAINTING,
       title: "Indian Summer",
-      year: "Inconnue",
+      year: null,
       medium: MEDIUMS.AQUA,
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 12,
-        height: 16,
+          width: 12,
+          height: 16,
         },
         withFrame: {
-        width: 19,
-        height: 23,
+          width: 19,
+          height: 23,
         },
       },
     },
@@ -1822,8 +1821,8 @@ const files = [
     artist: {
       name: "Ginette Laplante",
       origin: "Québec",
-      birthYear: "Inconnue",
-      deathYear: "-",
+      birthYear: null,
+      deathYear: null,
     },
     info: {
       type: TYPE.PAINTING,
@@ -1833,12 +1832,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 24,
-        height: 12,
+          width: 24,
+          height: 12,
         },
         withFrame: {
-        width: 30,
-        height: 18,
+          width: 30,
+          height: 18,
         },
       },
     },
@@ -1864,12 +1863,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 18,
-        height: 36,
+          width: 18,
+          height: 36,
         },
         withFrame: {
-        width: 20,
-        height: 38,
+          width: 20,
+          height: 38,
         },
       },
     },
@@ -1895,12 +1894,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 24,
-        height: 36,
+          width: 24,
+          height: 36,
         },
         withFrame: {
-        width: 26,
-        height: 38,
+          width: 26,
+          height: 38,
         },
       },
     },
@@ -1926,12 +1925,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 16,
-        height: 12,
+          width: 16,
+          height: 12,
         },
         withFrame: {
-        width: 25,
-        height: 20.5,
+          width: 25,
+          height: 20.5,
         },
       },
     },
@@ -1952,17 +1951,17 @@ const files = [
     info: {
       type: TYPE.PAINTING,
       title: "Un seul roulé",
-      year: "Inconnue",
+      year: null,
       medium: MEDIUMS.OIL,
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 11.25,
-        height: 9.25,
+          width: 11.25,
+          height: 9.25,
         },
         withFrame: {
-        width: 20,
-        height: 10,
+          width: 20,
+          height: 10,
         },
       },
     },
@@ -1988,12 +1987,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 9.5,
-        height: 11.5,
+          width: 9.5,
+          height: 11.5,
         },
         withFrame: {
-        width: 15.5,
-        height: 17.5,
+          width: 15.5,
+          height: 17.5,
         },
       },
     },
@@ -2014,17 +2013,17 @@ const files = [
     info: {
       type: TYPE.PAINTING,
       title: "Reflets",
-      year: "Inconnue",
+      year: null,
       medium: MEDIUMS.OIL,
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 8,
-        height: 10,
+          width: 8,
+          height: 10,
         },
         withFrame: {
-        width: 16,
-        height: 18,
+          width: 16,
+          height: 18,
         },
       },
     },
@@ -2045,17 +2044,17 @@ const files = [
     info: {
       type: TYPE.PAINTING,
       title: "Dans un jardin",
-      year: "Inconnue",
+      year: null,
       medium: MEDIUMS.OIL,
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 12,
-        height: 10,
+          width: 12,
+          height: 10,
         },
         withFrame: {
-        width: 15,
-        height: 13,
+          width: 15,
+          height: 13,
         },
       },
     },
@@ -2076,17 +2075,17 @@ const files = [
     info: {
       type: TYPE.PAINTING,
       title: "La limonade la plus fraîche en ville",
-      year: "Inconnue",
+      year: null,
       medium: MEDIUMS.OIL,
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 18,
-        height: 24,
+          width: 18,
+          height: 24,
         },
         withFrame: {
-        width: 24,
-        height: 30,
+          width: 24,
+          height: 30,
         },
       },
     },
@@ -2112,12 +2111,12 @@ const files = [
       frame: true,
       sizes: {
         withoutFrame: {
-        width: 27,
-        height: 21,
+          width: 27,
+          height: 21,
         },
         withFrame: {
-        width: 36,
-        height: 30,
+          width: 36,
+          height: 30,
         },
       },
     },
@@ -2188,7 +2187,7 @@ const files = [
     info: {
       type: TYPE.SCULPTURE,
       title: "BCBG 1/8",
-      year: "Inconnue",
+      year: null,
       medium: MEDIUMS.BRONZE,
       sizes: {
         width: 5.5,
@@ -2380,10 +2379,10 @@ const files = [
   {
     fileName: "N° S11",
     artist: {
-      name: "Genius of Wedgwood - Reproduction",
+      name: "Genius of Wedgwood",
       origin: "Egypte",
-      birthYear: "-",
-      deathYear: "-",
+      birthYear: null,
+      deathYear: null,
     },
     info: {
       type: TYPE.SCULPTURE,
