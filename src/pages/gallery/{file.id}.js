@@ -64,7 +64,9 @@ const GalleryId = props => {
           <div className="flex flex-col items-center md:items-start md:flex-row md:justify-around mt-12">
             <Img fixed={file.childImageSharp.fixed} />
             <div className="md:w-1/2 mt-12 md:mt-0 ml-5">
-              <h3 className="pl-5">{fileInfoString()}</h3>
+            {fileInfo.info.title !== null && (
+               <h3 className="pl-5">{fileInfoString()}</h3>
+            )}
               <div className="bg-white rounded-lg p-5">
                 <div className="font-bold mt-5 mb-2">Medium</div>
                 <div>{fileInfo.info.medium}</div>

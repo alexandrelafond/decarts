@@ -2105,8 +2105,8 @@ const files = [
     },
     info: {
       type: TYPE.PAINTING,
-      title: "Inconnu",
-      year: "Inconnu",
+      title: null,
+      year: null,
       medium: MEDIUMS.OIL,
       frame: true,
       sizes: {
@@ -2123,6 +2123,37 @@ const files = [
     price: {
       worth: "1 800",
       asked: "1 350",
+    },
+    sold: false,
+  },
+  {
+    fileName: "N° 68",
+    artist: {
+      name: "Alexis Arts",
+      origin: "Hollande - Québec",
+      birthYear: 1940,
+      deathYear: "-",
+    },
+    info: {
+      type: TYPE.PAINTING,
+      title: "Été - Canal Lachine",
+      year: null,
+      medium: MEDIUMS.OIL,
+      frame: true,
+      sizes: {
+        withoutFrame: {
+          width: 26,
+          height: 40,
+        },
+        withFrame: {
+          width: 36,
+          height: 46,
+        },
+      },
+    },
+    price: {
+      worth: "4 800",
+      asked: "3 200",
     },
     sold: false,
   },
