@@ -1194,7 +1194,7 @@ const files = [
       worth: "1 250",
       asked: "1 000",
     },
-    sold: false,
+    sold: true,
   },
   {
     fileName: "N° 38",
@@ -1858,7 +1858,7 @@ const files = [
     info: {
       type: TYPE.PAINTING,
       title: "Les jours heureux",
-      year: "Inconnu",
+      year: null,
       medium: MEDIUMS.ACRYLIC,
       frame: true,
       sizes: {
@@ -1889,7 +1889,7 @@ const files = [
     info: {
       type: TYPE.PAINTING,
       title: "Un air de fête",
-      year: "Inconnu",
+      year: null,
       medium: MEDIUMS.ACRYLIC,
       frame: true,
       sizes: {
@@ -2162,7 +2162,7 @@ const files = [
     info: {
       type: TYPE.SCULPTURE,
       title: "Neptune",
-      year: "Inconnu",
+      year: null,
       medium: MEDIUMS.ALBATRE,
       sizes: {
         width: 5,
@@ -2254,7 +2254,7 @@ const files = [
   {
     fileName: "N° S06",
     artist: {
-      name: "Artiste Shona Inconnu",
+      name: "Artiste Shona",
       origin: "Zimbabwe",
       birthYear: "-",
       deathYear: "-",
