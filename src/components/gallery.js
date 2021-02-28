@@ -44,11 +44,11 @@ const Gallery = props => {
   return (
     <ul className="grid grid-cols-1 gap-6 m-0 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
       {sortByFileName(paintings, 3).map(node => {
-        const fileInfo = files.find(file => file.name === node.name)
+        const fileInfo = files.find(file => file.fileName === node.name)
         return <Item key={node.id} file={node} fileInfo={fileInfo} />
       })}
       {sortByFileName(sculptures, 4).map(node => {
-        const fileInfo = files.find(file => file.name === node.name)
+        const fileInfo = files.find(file => file.fileName === node.name)
         return <Item key={node.id} file={node} fileInfo={fileInfo} />
       })}
     </ul>
