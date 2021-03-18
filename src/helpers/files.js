@@ -357,7 +357,7 @@ const files = [
       worth: "9 000",
       asked: "7 200",
     },
-    sold: false,
+    sold: true,
   },
   {
     fileName: "N° 11",
@@ -1628,7 +1628,7 @@ const files = [
       worth: "9 200",
       asked: "6 000",
     },
-    sold: false,
+    sold: true,
   },
   {
     fileName: "N° 52",
