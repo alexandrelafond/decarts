@@ -7,7 +7,7 @@ const Footer = () => (
     <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
       <div className="flex justify-center md:order-2 text-gray-500">
         Site internet par
-        <a href={"mailto:" + "info.alafond@gmail.com"} className="pl-1">
+        <a href={"mailto:" + "info.alafond@gmail.com"} className="pl-2">
           LG2
         </a>
       </div>
